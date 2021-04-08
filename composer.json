@@ -15,7 +15,7 @@
     }
   },
   "require": {
-    "php": "~7.3.0",
+    "php": "~7.4",
     "symfony/framework-bundle": "^5.2",
     "easycorp/easyadmin-bundle": "^3.2",
     "gedmo/doctrine-extensions": "^3.0"
