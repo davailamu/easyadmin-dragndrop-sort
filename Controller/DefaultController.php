@@ -3,7 +3,7 @@
 namespace Treetop1500\EasyadminDragndropSortBundle\Controller;
 
 use Symfony\Component\HttpFoundation\Request;
-use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 use Symfony\Component\Routing\Annotation\Route;
 use ReflectionClass;
@@ -14,7 +14,7 @@ use ReflectionClass;
  * @package Treetop1500\EasyadminDragndropSortBundle\Controller
  * @author http://github.com/treetop1500
  */
-class DefaultController extends Controller
+class DefaultController extends AbstractController
 {
     /**
      * Resorts an item using it's doctrine sortable property
